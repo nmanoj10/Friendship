@@ -1,6 +1,6 @@
 /**
  * Mirrors the backend normalizer: trim, lowercase, collapse spaces.
- * "  Sinpers  " -> "sinpers"
+ * "  Snipers  " -> "snipers"
  */
 export function normalizeAnswer(value) {
   if (typeof value !== 'string') return '';
