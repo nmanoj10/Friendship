@@ -13,7 +13,13 @@ api.interceptors.request.use((config) => {
 });
 
 export function getErrorMessage(err, fallback = 'Something went wrong. Please try again.') {
-  return err?.response?.data?.message || err?.message || fallback;
+  if (err?.response?.data?.message) return err.response.data.message;
+  // Axios network-level failure: backend unreachable, CORS blocked, or request timed out.
+  // There is no response body, so err.message would just be the cryptic "Network Error".
+  if (err?.request && !err?.response) {
+    return "Can't reach the server. Make sure the backend is running, then try again.";
+  }
+  return err?.message || fallback;
 }
 
 // Auth
