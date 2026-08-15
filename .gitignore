@@ -28,3 +28,6 @@ Thumbs.db
 .cortex/
 skills/
 skills-lock.json
+
+# Design notes (kept locally, not in the repo)
+DESIGN.md
