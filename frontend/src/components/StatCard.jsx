@@ -10,7 +10,7 @@ export default function StatCard({ icon: Icon, label, value, sub, accent = 'viol
   return (
     <div className="rounded-3xl border border-white bg-white/80 p-5 shadow-sm backdrop-blur transition-transform duration-200 hover:-translate-y-0.5">
       <div
-        className={`mb-3 inline-grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br text-xl text-white shadow-md ${ACCENTS[accent]}`}
+        className={`mb-3 inline-grid h-11 w-11 place-items-center rounded-2xl bg-linear-to-br text-xl text-white shadow-md ${ACCENTS[accent]}`}
       >
         <Icon aria-hidden="true" />
       </div>

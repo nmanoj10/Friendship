@@ -16,7 +16,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 border-b border-white/50 bg-white/70 backdrop-blur-md">
       <nav className="mx-auto flex w-full max-w-5xl items-center justify-between gap-2 px-4 py-3">
         <Link to="/" className="flex items-center gap-2 font-display text-xl font-bold text-slate-900">
-          <span className="grid h-9 w-9 place-items-center rounded-2xl bg-gradient-to-br from-violet-500 to-fuchsia-500 text-white shadow-lg shadow-fuchsia-200">
+          <span className="grid h-9 w-9 place-items-center rounded-2xl bg-linear-to-br from-violet-500 to-fuchsia-500 text-white shadow-lg shadow-fuchsia-200">
             <FaUserFriends />
           </span>
           <span className="text-gradient">Know Me?</span>
@@ -53,7 +53,7 @@ export default function Navbar() {
                 <FiClipboard className="text-base" />
                 <span className="hidden sm:inline">My Tests</span>
               </NavLink>
-              <span className="hidden items-center gap-1.5 rounded-2xl bg-gradient-to-r from-violet-500 to-fuchsia-500 px-3 py-2 text-sm font-extrabold text-white shadow-sm shadow-fuchsia-200 md:inline-flex">
+              <span className="hidden items-center gap-1.5 rounded-2xl bg-linear-to-r from-violet-500 to-fuchsia-500 px-3 py-2 text-sm font-extrabold text-white shadow-sm shadow-fuchsia-200 md:inline-flex">
                 👋 {user.username}
               </span>
               <button

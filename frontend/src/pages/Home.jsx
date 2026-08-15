@@ -117,7 +117,7 @@ export default function Home() {
               key={f.title}
               className="flex items-start gap-4 rounded-3xl border border-white bg-white/80 p-5 shadow-sm transition-transform duration-200 hover:-translate-y-1"
             >
-              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-gradient-to-br from-violet-100 to-fuchsia-100 text-2xl">
+              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-linear-to-br from-violet-100 to-fuchsia-100 text-2xl">
                 {f.emoji}
               </span>
               <div>
@@ -131,7 +131,7 @@ export default function Home() {
 
       {/* CTA */}
       <section className="py-12">
-        <div className="rounded-3xl bg-gradient-to-br from-violet-500 via-fuchsia-500 to-orange-400 p-10 text-center text-white shadow-xl shadow-fuchsia-200">
+        <div className="rounded-3xl bg-linear-to-br from-violet-500 via-fuchsia-500 to-orange-400 p-10 text-center text-white shadow-xl shadow-fuchsia-200">
           <FaUserGroup className="mx-auto mb-4 text-5xl" aria-hidden="true" />
           <h2 className="font-display text-3xl font-extrabold">Ready to test your friends?</h2>
           <p className="mx-auto mt-2 max-w-md text-sm font-semibold text-white/90">

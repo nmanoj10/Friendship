@@ -84,7 +84,7 @@ export default function Dashboard() {
   return (
     <div className="animate-fade-up pt-8">
       {/* Header */}
-      <div className="rounded-3xl bg-gradient-to-br from-violet-500 via-fuchsia-500 to-orange-400 p-7 text-white shadow-xl shadow-fuchsia-200">
+      <div className="rounded-3xl bg-linear-to-br from-violet-500 via-fuchsia-500 to-orange-400 p-7 text-white shadow-xl shadow-fuchsia-200">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h1 className="font-display text-3xl font-extrabold">

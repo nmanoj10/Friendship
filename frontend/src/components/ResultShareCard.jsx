@@ -42,7 +42,7 @@ export default function ResultShareCard({
   };
 
   return (
-    <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-violet-600 via-fuchsia-500 to-orange-400 p-6 text-white shadow-lg shadow-fuchsia-200">
+    <div className="relative overflow-hidden rounded-3xl bg-linear-to-br from-violet-600 via-fuchsia-500 to-orange-400 p-6 text-white shadow-lg shadow-fuchsia-200">
       <div className="pointer-events-none absolute -top-12 -right-10 h-36 w-36 rounded-full bg-white/10" />
       <div className="pointer-events-none absolute -bottom-14 -left-10 h-40 w-40 rounded-full bg-white/10" />
 

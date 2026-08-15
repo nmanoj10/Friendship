@@ -2,12 +2,12 @@ import Loading from './Loading.jsx';
 
 const STYLES = {
   primary:
-    'bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg shadow-fuchsia-200 hover:shadow-xl hover:shadow-fuchsia-300 hover:-translate-y-0.5',
+    'bg-linear-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg shadow-fuchsia-200 hover:shadow-xl hover:shadow-fuchsia-300 hover:-translate-y-0.5',
   secondary:
     'bg-white text-violet-700 ring-1 ring-violet-200 hover:bg-violet-50 hover:ring-violet-300',
   ghost: 'text-violet-700 hover:bg-violet-100/70',
   success:
-    'bg-gradient-to-r from-emerald-500 to-teal-500 text-white shadow-lg shadow-emerald-200 hover:shadow-xl hover:shadow-emerald-300 hover:-translate-y-0.5',
+    'bg-linear-to-r from-emerald-500 to-teal-500 text-white shadow-lg shadow-emerald-200 hover:shadow-xl hover:shadow-emerald-300 hover:-translate-y-0.5',
   light: 'bg-white/20 text-white ring-1 ring-white/40 hover:bg-white/30 backdrop-blur',
 };
 
