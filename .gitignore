@@ -31,3 +31,7 @@ skills-lock.json
 
 # Design notes (kept locally, not in the repo)
 DESIGN.md
+
+# E2E smoke test tooling (runs locally, not deployed)
+e2e/
+e2e
