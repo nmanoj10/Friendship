@@ -220,7 +220,7 @@ export default function CreateTest() {
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="e.g. Manoj"
+            placeholder="e.g. Sinpers"
             maxLength={50}
             className="mt-5 w-full rounded-2xl border-2 border-violet-100 bg-white px-4 py-3.5 text-lg font-bold text-slate-700 placeholder:text-slate-400 focus:border-violet-400 focus:outline-none focus:ring-2 focus:ring-violet-200"
           />
