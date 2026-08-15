@@ -1,0 +1,23 @@
+# Render Blueprint — deploy the backend API.
+# 1. Push this repo to GitHub and create a Blueprint from it (New + → Blueprint).
+# 2. Set MONGODB_URI, CLIENT_URL and JWT_SECRET in the service's Environment dashboard.
+services:
+  - type: web
+    name: friendship-test-api
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false
+      - key: CLIENT_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
