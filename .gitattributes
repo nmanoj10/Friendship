@@ -1,0 +1,9 @@
+# Normalize line endings: files are stored as LF in the repo.
+# On Windows checkouts Git converts to CRLF where appropriate.
+* text=auto
+
+# Keep shell scripts and config files as LF everywhere.
+*.sh text eol=lf
+*.mjs text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
